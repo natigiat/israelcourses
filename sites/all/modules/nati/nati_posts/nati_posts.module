@@ -1,0 +1,33 @@
+<?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', TRUE);
+ini_set('display_startup_errors', TRUE);
+
+
+
+/**
+ * @file
+ * A block module that displays recent blog and forum posts.
+ */
+
+// dpm($node);
+
+/**
+ * Implements hook_init().
+ */
+function nati_posts_init() {
+
+  $path = drupal_get_path('module', 'nati_posts');
+
+  drupal_add_js(
+    $path . '/nati_posts.js',
+    array('preprocess' => variable_get('nati-posts-preprocess', FALSE))
+  );
+  
+  // 
+  // function popup_element("fgh", "fghgf", $attributes = array());
+  
+
+}
+

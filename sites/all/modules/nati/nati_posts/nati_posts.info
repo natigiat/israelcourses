@@ -1,0 +1,5 @@
+name = Nati Posts
+description = Manage post for the site
+package = nati
+core = 7.x
+version = "7.x-1.0"

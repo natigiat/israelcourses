@@ -1,0 +1,26 @@
+.i18n-he .main-slider-text-wrapper {
+    text-align: right;
+    padding: 71px 90px 80px 60px;
+}
+
+
+.no-padding{
+	padding:0px!important;
+}
+
+
+.courses {
+    width: 100% !important;
+    max-width: 100%!important;
+
+}
+
+.progectBoxFilter {
+    background: #FFF;
+    height: 277px;
+    margin: 15px;
+}
+
+span.field-content.bfilterTitle {
+    font-size: 13px;
+}
